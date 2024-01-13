@@ -1,0 +1,65 @@
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #050000;
+  }
+  #portfolio-image {
+    position: absolute;
+    top:50px; /* Adjust the top value as needed */
+    right: 50px; /* Adjust the right value as needed */
+    max-width: 200px; /* Set the maximum width of the image */
+    max-height: 200px; /* Set the maximum height of the image */
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  h1 {
+    font-size: 2.5em;
+    color: #5e9fe0;
+  }
+  h2 {
+    font-size: 2em;
+    color: #fbff00;
+  }
+  p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+  }
+  a {
+    color: #f10000;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  a:hover {
+    color: #73ff00;
+  }
+  .section {
+    margin-bottom: 40px;
+  }
+  .card {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  @media screen and (max-width: 600px) {
+    h1 {
+      font-size: 2em;
+    }
+  
+    h2 {
+      font-size: 1.8em;
+    }
+  
+    p {
+      font-size: 1em;
+    }
+}
